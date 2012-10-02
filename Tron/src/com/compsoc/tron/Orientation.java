@@ -1,4 +1,4 @@
-package home.lb00196.surrey;
+package com.compsoc.tron;
 
 public enum Orientation {
  HORIZONAL,VERTICAL

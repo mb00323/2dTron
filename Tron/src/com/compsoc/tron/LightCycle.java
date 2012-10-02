@@ -1,4 +1,4 @@
-package home.lb00196.surrey;
+package com.compsoc.tron;
 
 import java.awt.Image;
 import java.awt.Toolkit;
@@ -60,7 +60,6 @@ public class LightCycle {
 	public void update(){
 		
 		if (direction == Direction.UP){
-			y--;
 			y--;
 			y--;
 		}
