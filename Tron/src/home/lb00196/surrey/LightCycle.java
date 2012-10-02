@@ -62,6 +62,7 @@ public class LightCycle {
 		if (direction == Direction.UP){
 			y--;
 			y--;
+			y--;
 		}
 		
 		if (direction == Direction.DOWN){
