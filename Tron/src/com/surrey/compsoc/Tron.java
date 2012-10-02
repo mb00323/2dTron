@@ -1,4 +1,4 @@
-package home.lb00196.surrey;
+package com.surrey.compsoc;
 
 import java.applet.Applet;
 import java.awt.Color;
