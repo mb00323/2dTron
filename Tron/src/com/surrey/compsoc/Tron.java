@@ -329,9 +329,7 @@ public class Tron extends Applet implements Runnable, KeyListener {
 		for (int i = 0; i < horizonalLines.size(); i++) {
 			MyLine temp = horizonalLines.get(i);
 			if (temp.getY1() == lightCycle[0].getY()) {
-				if ((temp.getX1() >= lightCycle[0].getX() && temp.getX2() <= lightCycle[0].getX())
-						|| (temp.getX2() >= lightCycle[1].getX() && temp
-								.getX1() <= lightCycle[1].getX())) {
+				if ((temp.getX1() >= lightCycle[0].getX() && temp.getX2() <= lightCycle[0].getX())|| (temp.getX2() >= lightCycle[0].getX() && temp.getX1() <= lightCycle[0].getX())) {
 					lightCycle[0].crash(200, 500);
 					lightCycle[1].crash(600, 500);
 					horizonalLines.clear();
