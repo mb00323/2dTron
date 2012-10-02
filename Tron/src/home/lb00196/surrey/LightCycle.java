@@ -60,6 +60,7 @@ public class LightCycle {
 	public void update(){
 		
 		if (direction == Direction.UP){
+
 			y--;
 			y--;
 		}
