@@ -18,7 +18,7 @@ public class LightCycle {
 
 	public LightCycle(){
 		this.x = 0;
-		this.y = 0;
+		this.y = 1;
 		this.direction = Direction.UP;
 		
 	}
